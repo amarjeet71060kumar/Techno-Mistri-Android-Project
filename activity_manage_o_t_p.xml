@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ManageOTPActivity">
+
+    <EditText
+        android:id="@+id/VerifyOTP"
+        android:layout_width="wrap_content"
+        android:hint="Enter 6 digits OTP"
+        android:background="@drawable/custome_input"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnVerify"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custome_button"
+        android:textSize="25sp"
+        android:text="Verify"
+        android:textAllCaps="false"
+        android:layout_marginTop="40dp"
+        />
+</LinearLayout>

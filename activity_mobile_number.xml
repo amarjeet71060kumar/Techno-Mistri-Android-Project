@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginTop="250dp"
+    tools:context=".MobileNumberActivity">
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/ccp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:ccp_autoDetectCountry="true"
+        app:ccp_showNameCode="true"
+        app:ccp_textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/mobileNo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custome_input"
+        android:padding="12dp"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login/SingUp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:background="@drawable/custome_button"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"/>
+</LinearLayout>
+
